@@ -3,6 +3,30 @@
 This project is designed to be part of an interactive tutorial in game programming
 using [Godot Engine](https://godotengine.org).
 
+## Getting ready for the tutorial
+
+Make sure you [download version 3.2 of Godot Engine](https://godotengine.org/download).
+You should download the 64-bit &ldquo;standard version&rdquo;. (If you are
+using a rather old computer, the 32-bit version will also work, but most
+computers running now are 64-bit.)
+
+Extract the executable Godot Engine file from the ZIP file you downloaded.
+You can just put this on your Desktop or someplace similar. There is nothing
+to install: Godot Engine simply runs from that executable.
+
+Download the latest release of this tutorial
+[from the releases page](https://github.com/doctor-g/Godot-Collector-Tutorial/releases).
+Those are the files you will need for the tutorial, so unzip them to a convenient
+location, such as the Desktop.
+
+Open the tutorial by running Godot Engine, choosing Import,
+and then selecting the `project.godot` file in the folder where you extracted
+the tutorial files.
+
+
+
+## After the tutorial...
+
 After the tutorial, check out the [challenges list](challenges.html) for some 
 additional features you can try adding on your own!
 

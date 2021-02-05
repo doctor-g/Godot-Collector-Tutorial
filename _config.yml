@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
 title: Godot Engine Collector Tutorial
 description: A sample project for an interactive game development tutorial
-show_downloads: true
+show_downloads: false

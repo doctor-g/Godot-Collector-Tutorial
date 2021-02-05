@@ -15,8 +15,7 @@ You can just put this on your Desktop or someplace similar. There is nothing
 to install: Godot Engine simply runs from that executable.
 
 Download the source code ZIP of the latest release of this tutorial
-[from the releases page](https://github.com/doctor-g/Godot-Collector-Tutorial/releases)
-or by clicking the `.zip` folder icon above.
+[from the releases page](https://github.com/doctor-g/Godot-Collector-Tutorial/releases).
 Those are the files you will need for the tutorial, so unzip them to a convenient
 location, such as the Desktop.
 

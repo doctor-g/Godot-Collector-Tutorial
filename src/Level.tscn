@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://src/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Star.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/HUD.tscn" type="PackedScene" id=3]
+
+[node name="Level" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 276, 183 )
+
+[node name="Star" parent="." instance=ExtResource( 2 )]
+position = Vector2( 495.34, 217.379 )
+
+[node name="HUD" parent="." instance=ExtResource( 3 )]

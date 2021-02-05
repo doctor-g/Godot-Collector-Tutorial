@@ -19,10 +19,6 @@ config/name="CollectorTutorial"
 run/main_scene="res://src/Level.tscn"
 config/icon="res://icon.png"
 
-[autoload]
-
-GameState="*res://src/GameState.tscn"
-
 [debug]
 
 gdscript/warnings/return_value_discarded=false

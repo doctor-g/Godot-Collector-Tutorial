@@ -1,21 +1,44 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://src/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://src/Star.tscn" type="PackedScene" id=2]
-[ext_resource path="res://src/HUD.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/fonts/HUD_font.tres" type="DynamicFont" id=3]
 [ext_resource path="res://src/Level.gd" type="Script" id=4]
 
 [node name="Level" type="Node2D"]
 script = ExtResource( 4 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 276, 183 )
-
-[node name="Star" parent="." instance=ExtResource( 2 )]
-position = Vector2( 495.34, 217.379 )
-
-[node name="HUD" parent="." instance=ExtResource( 3 )]
+position = Vector2( 518.324, 298.817 )
 
 [node name="StarSpawnTimer" type="Timer" parent="."]
 autostart = true
+
+[node name="HUD" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScoreLabel" type="Label" parent="HUD"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = ExtResource( 3 )
+text = "ScoreLabel"
+
+[node name="TimeLabel" type="Label" parent="HUD"]
+margin_left = 454.358
+margin_right = 629.358
+margin_bottom = 48.0
+custom_fonts/font = ExtResource( 3 )
+text = "TimeLabel"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GameTimer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+autostart = true
 [connection signal="timeout" from="StarSpawnTimer" to="." method="_on_StarSpawnTimer_timeout"]
+[connection signal="timeout" from="GameTimer" to="." method="_on_GameTimer_timeout"]

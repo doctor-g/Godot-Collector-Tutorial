@@ -15,6 +15,11 @@ var score := 0
 # which are defined with the word "func".
 
 
+# This function is called automatically when the level starts.
+func _ready():
+	make_star()
+	
+
 # Update objects in the world.
 #
 # This function is automatically called by the engine each frame.
@@ -24,9 +29,9 @@ func _process(_delta):
 	$HUD/TimeLabel.text = "Time Remaining: " + str(ceil($GameTimer.time_left))
 
 
-# This function is called when the StarSpawnTimer goes off.
-# It will create a new star and stick it on the screen at least
-func _on_StarSpawnTimer_timeout():
+# Create a new star in the game world.
+# This will make sure it is not created on top of or too close to the player.
+func make_star():
 	var star : Area2D = load("res://src/Star.tscn").instance()
 	star.connect("body_entered", self, "_on_Star_entered", [star])
 	star.position = _random_position()
@@ -57,7 +62,6 @@ func _random_position()->Vector2:
 # We use it to deactivate the player and stop spawning new stars.
 func _on_GameTimer_timeout():
 	$Player.active = false
-	$StarSpawnTimer.stop()
 
 
 # Reload this level.

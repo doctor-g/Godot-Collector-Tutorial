@@ -7,6 +7,15 @@
 [node name="Level" type="Node2D"]
 script = ExtResource( 4 )
 
+[node name="Background" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.0431373, 0.431373, 0.00784314, 1 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 518.324, 298.817 )
 

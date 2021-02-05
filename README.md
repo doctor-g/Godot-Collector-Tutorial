@@ -6,6 +6,8 @@ using [Godot Engine](https://godotengine.org).
 After the tutorial, check out the [challenges list](challenges.html) for some 
 additional features you can try adding on your own!
 
+For a deeper introduction to Godot Engine, I recommend [the &ldquo;Your First Game&rdquo; tutorial](https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html) from the Godot Engine site.
+
 
 ## Third-Party Assets
 

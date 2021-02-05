@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <title>
+    Challenges
+  </title>
+</head>
+
+<body>
+  <main>
+    <h1>Challenges</h1>
+    <p>
+      Did you follow along with the tutorial? Here are some challenges for you to try next!
+      The first few are pretty easy and involve working with the editor, but the later ones
+      require you to do some programming too.
+    </p>
+
+    <ol>
+      <li>
+        Modify the idle animation of the <code>Player.tscn</code> scene so that
+        if he stands still, he does a funny dance or something similar.
+      </li>
+
+      <li>
+        Replace the star with a different image, something that you think the
+        character should be collecting.
+      </li>
+
+      <li>
+        Come up with a better name for the game and replace the logo
+        in the <code>MainMenu.tscn</code> scene.
+        You can add your own images to the <code>assets</code> folder of the project,
+        right alongside the ones that are already there.
+      </li>
+
+      <li>
+        Give the player a time bonus when they collect a star.
+        That is, when you gain a star, add a value to the <code>wait_time</code>
+        of the game timer.
+      </li>
+
+      <li>
+        To add more challenge, make the stars remove themselves after a few seconds.
+      </li>
+      <ul>
+        <li>
+          You can add a timer to the <code>Star</code> scene and give it a default
+          wait time that you think will be fun.
+          Set the timer to auto-start.
+        </li>
+        <li>
+          Switch from the &ldquo;Inspector&rdquo; view to the &ldquo;Node&rdquo; view
+          and connect to the <code>timeout</code> signal to the <code>Star</code> script.
+          This will give you a function whose implementation you can change.
+        </li>
+        <li>
+          If a script calls the function <code>queue_free()</code>, the object
+          will remove itself from the game.
+        </li>
+      </ul>
+
+      <li>
+        Add another kind of collectible that is worth more points,
+        or one that gives you negative points.
+      </li>
+      <ul>
+        <li>
+          One way to do this is to duplicate the <code>Star.tscn</code> scene but
+          use a different image. Then, in the <code>Level.gd</code> script,
+          copy the <code>make_star</code> function and have it load your new
+          scene instead of <code>Star.tscn</code>.
+        </li>
+      </ul>
+    </ol>
+  </main>
+</body>
+
+</html>

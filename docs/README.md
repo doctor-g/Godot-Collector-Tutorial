@@ -3,7 +3,9 @@
 This project is designed to be part of an interactive workshop on game programming
 using [Godot Engine](https://godotengine.org).
 
-## Getting ready for the workshop
+## Part 1
+
+### Getting Ready
 
 Make sure you [download version 3.2 of Godot Engine](https://godotengine.org/download).
 You should download the 64-bit &ldquo;standard version&rdquo;. (If you are
@@ -29,10 +31,25 @@ I look forward to seeing you at the meeting, where we will work through a few
 exercises on how to add features to the template.
 
 
-## After the workshop
+### After the workshop
 
-After the workshop, check out the [post-workshop challenges list](challenges.md) for some 
+After the workshop, check out the [post-workshop challenges list](Challenges-1.md) for some 
 additional features you can try adding on your own!
 
 For a deeper introduction to Godot Engine, I recommend [the &ldquo;Your First Game&rdquo; tutorial](https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html) from the Godot Engine site.
 
+
+## Part 2
+
+### Getting Ready
+
+If you were part of the original tutorial group, you will need to download
+these two files and put them into your project's `assets` folder:
+
+- [pickup.wav](https://github.com/doctor-g/Godot-Collector-Tutorial/blob/master/assets/pickup.wav)
+- [theme.ogg](https://github.com/doctor-g/Godot-Collector-Tutorial/blob/master/assets/theme.ogg)
+
+### After the workshop
+
+[Here is another list of challenges](Challenges-2.md) that you can try after
+the tutorial. 

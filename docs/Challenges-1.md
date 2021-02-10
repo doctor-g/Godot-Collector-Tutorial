@@ -1,4 +1,4 @@
-# Post-Workshop Challenges
+# Post-Workshop Challenges: Part 1
 
 Did you follow along with the tutorial? Here are some challenges for you to try next!
 The first few are pretty easy and involve working with the editor, but the later ones

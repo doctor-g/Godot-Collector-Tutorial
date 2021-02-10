@@ -36,8 +36,6 @@ exercises on how to add features to the template.
 After the workshop, check out the [post-workshop challenges list](Challenges-1.md) for some 
 additional features you can try adding on your own!
 
-For a deeper introduction to Godot Engine, I recommend [the &ldquo;Your First Game&rdquo; tutorial](https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html) from the Godot Engine site.
-
 
 ## Part 2
 
@@ -54,6 +52,7 @@ these two files and put them into your project's `assets` folder.
 
 [Here is another list of challenges](Challenges-2.md) that you can try after
 the tutorial. 
+
 
 <br><br>
 

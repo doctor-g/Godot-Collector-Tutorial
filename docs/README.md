@@ -44,10 +44,11 @@ For a deeper introduction to Godot Engine, I recommend [the &ldquo;Your First Ga
 ### Getting Ready
 
 If you were part of the original tutorial group, you will need to download
-these two files and put them into your project's `assets` folder:
+these two files and put them into your project's `assets` folder. 
 
-- [pickup.wav](https://github.com/doctor-g/Godot-Collector-Tutorial/blob/master/assets/pickup.wav)
-- [theme.ogg](https://github.com/doctor-g/Godot-Collector-Tutorial/blob/master/assets/theme.ogg)
+- <a download="pickup.wav" href="pickup.wav">pickup.wav</a>
+- <a download="theme.ogg" href="theme.ogg">theme.ogg</a>
+
 
 ### After the workshop
 

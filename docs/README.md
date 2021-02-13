@@ -47,6 +47,12 @@ these two files and put them into your project's `assets` folder.
 - <a download="pickup.wav" href="pickup.wav">pickup.wav</a>
 - <a download="theme.ogg" href="theme.ogg">theme.ogg</a>
 
+If you have not yet done either tutorial, you can instead [just download the
+latest release from the releases
+page](https://github.com/doctor-g/Godot-Collector-Tutorial/releases) and unzip
+it as described above. The latest release already contains the `pickup.wav` and
+`theme.ogg` files.
+
 
 ### After the workshop
 

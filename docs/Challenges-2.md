@@ -28,3 +28,5 @@ some are easy, and some will really test your knowledge.
        look at how the stars are created in random positions in `Level.gd`. 
        Copy that function so that it instances your firework scene in random
        positions on the board.
+
+1. Make the stars worth more points if they are spinning faster.

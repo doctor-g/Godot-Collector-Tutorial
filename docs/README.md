@@ -1,4 +1,4 @@
-# Collector Tutorial
+# Star Collector: A Two-Part Game Development Tutorial
 
 This project is designed to be part of an interactive workshop on game programming
 using [Godot Engine](https://godotengine.org).
@@ -38,6 +38,12 @@ additional features you can try adding on your own!
 
 
 ## Part 2
+
+Now that you have completed Part 1, we can start talking about
+_juiciness_. This is an idea from game development where we take
+something relatively simple and make it feel a lot better to play.
+We won't change the fundamental gameplay from Part 1: we'll just give
+the game some _juice_.
 
 ### Getting Ready
 

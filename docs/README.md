@@ -59,6 +59,57 @@ it as described above. The latest release already contains the `pickup.wav` and
 [Here is another list of challenges](Challenges-2.md) that you can try after
 the tutorial. 
 
+## Additional Free Resources
+
+Game development is a great hobby, and there are lots of skills to explore, such
+as programming, art, music, sound effects, and storytelling.
+Here are some of my favorite web sites for free next steps in game development:
+
+### Tutorials
+
+- [Godot Engine's "Your First Game" tutorial](https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html) provides an excellent introduction to the engine
+
+### Art Tools
+
+- [GIMP](https://www.gimp.org/) is a free image editor
+
+- [Inkscape](https://inkscape.org/) is a free vector graphics editor
+
+
+### Audio Tools
+
+- [LMMS](https://lmms.io) is a full-featured digital audio workstation for
+  writing music&mdash;the pickup sound and simple theme from this tutorial were
+  both made using LMMS.
+
+- [Audacity](https://www.audacityteam.org/) is a free audio editor
+
+- [BeepBox](https://www.beepbox.co/) is a fun, free, online tool for making
+  simple beats that you can bring into your game.
+
+### Free Assets
+
+- [Kenney](https://www.kenney.nl/) has an amazing collection of public domain
+  assets, including 2D art, 3D art, and sound effects. The adventurer and star
+  from this tutorial came from Kenney!
+
+- [FreeSound.org](https://freesound.org/) is a great collection of sound effects, including both public domain and attribution-licensed assets
+
+- [Kevin Macleod (Incompetech)](https://incompetech.com/) has a huge collection
+ of attribution-licensed music&mdash;he has been a go-to for game jammers for years!
+
+### YouTube Channels
+
+- [My game programming playlist on
+  YouTube](https://www.youtube.com/playlist?list=PLL4s8QTahRc11XP1Zn21F0v4CVD3abVKI)
+  includes a variety of tutorials, from beginner to advanced topics, focusing on
+  [GodotEngine](https://godotengine.org) and [Unreal Engine
+  4](https://unrealengine.com).
+
+- [GamesFromScratch](https://www.youtube.com/user/gamefromscratch) regularly
+  posts news and reviews of interest to hobbyist game developers
+
+
 
 <br><br>
 

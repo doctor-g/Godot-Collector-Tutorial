@@ -71,9 +71,15 @@ Game development is a great hobby, and there are lots of skills to explore, such
 as programming, art, music, sound effects, and storytelling.
 Here are some of my favorite web sites for free next steps in game development:
 
-### Tutorials
+### Tutorials and Lessons
 
 - [Godot Engine's "Your First Game" tutorial](https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html) provides an excellent introduction to the engine
+
+
+- [GGJ NEXT (Global Game Jam Next)](https://ggjnext.org/) provides for free [a
+  great collection of curriculum videos](https://ggjnext.org/curriculum/) on
+  topics including design, art, programming, audio, and production.
+
 
 ### Art Tools
 

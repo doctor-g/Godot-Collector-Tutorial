@@ -121,6 +121,9 @@ Here are some of my favorite web sites for free next steps in game development:
 - [GamesFromScratch](https://www.youtube.com/user/gamefromscratch) regularly
   posts news and reviews of interest to hobbyist game developers
 
+### Local Resources
+
+If you're in East Central Indiana, check out [Techwise Academy](https://techwiseacademy.com/).
 
 
 <br><br>

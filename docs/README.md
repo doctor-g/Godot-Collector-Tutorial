@@ -121,6 +121,16 @@ Here are some of my favorite web sites for free next steps in game development:
 - [GamesFromScratch](https://www.youtube.com/user/gamefromscratch) regularly
   posts news and reviews of interest to hobbyist game developers
 
+### Jams
+
+Game jams are a great way to practice your skills. A jam gives you a set of constraints and a limited amount of time to get something up and running. You can learn a lot more by finishing lots of small projects than you do by unconstrained exploration.
+
+You can find an excellent list of jams at [https://itch.io/jams](itch.io/jams), and there are often over a hundred going on
+at any time.
+Here are some of my favorite relevant events:
+- [Ludum Dare](https://ldjam.com), for which I especially enjoy the &ldquo;compo&rdquo; form, in which you have 48 hours to make a game from scratch, including all of the assets.
+- [National Game Design Month (NaGaDeMon)](https://nagademon.org/) encourages people to make, play, and talk about games during November.
+
 ### Local Resources
 
 If you're in East Central Indiana, check out [Techwise Academy](https://techwiseacademy.com/).

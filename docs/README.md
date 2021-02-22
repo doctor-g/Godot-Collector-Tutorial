@@ -80,6 +80,10 @@ Here are some of my favorite web sites for free next steps in game development:
   great collection of curriculum videos](https://ggjnext.org/curriculum/) on
   topics including design, art, programming, audio, and production.
 
+- [_Game Design Concepts_](https://gamedesignconcepts.wordpress.com/) is essentially a free
+  online textbook on game design. The examples are a little dated, but the principles are
+  spot on.
+
 
 ### Art Tools
 

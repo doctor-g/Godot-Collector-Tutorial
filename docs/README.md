@@ -33,7 +33,7 @@ exercises on how to add features to the template.
 
 - [Challenges to try after completing Part 1 of the tutorial](Challenges-1.md).
 
-- [A sample solution to Part 1 of the tutorial](https://drive.google.com/file/d/1c2sUtfQGUXFjS73SeuYSP1NRAtEsyDB0/view?usp=sharing)
+- [A sample solution to Part 1 of the tutorial](https://drive.google.com/uc?export=download&id=1c2sUtfQGUXFjS73SeuYSP1NRAtEsyDB0)
 
 - [Challenges to try after completing Part 2 of the tutorial](Challenges-2.md)
 

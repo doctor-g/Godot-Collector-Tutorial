@@ -1,11 +1,11 @@
 # Post-Workshop Challenges: Part 1
 
-Did you follow along with the tutorial? Here are some challenges for you to try next!
-The first few are pretty easy and involve working with the editor, but the later ones
-require you to do some programming too.
+Did you follow along with Part 1 of the tutorial? Here are some challenges for
+you to try next! The first few are pretty easy and involve working with the
+scene editor, but the later ones require you to do some programming too.
 
 1. Modify the idle animation of the `Player.tscn` scene so that
-   if he stands still, he does a funny dance or something similar.
+   if he stands still, he does a funny dance (or something similar).
 
 1. Replace the star with a different image, something that you think the
    character should be collecting.
@@ -16,8 +16,10 @@ require you to do some programming too.
    right alongside the ones that are already there.
 
 1. Give the player a time bonus when they collect a star.
-   That is, when you gain a star, add a value to the <code>wait_time</code>
-   of the game timer.
+   You can ask a timer how much time is remaining by looking at its
+   `time_left` property, and 
+   you can add time to the timer by calling the timer's `start` function
+   with the new number of seconds.
 
 1. To add more challenge, make the stars remove themselves after a few seconds.
     - You can add a timer to the `Star` scene and give it a default

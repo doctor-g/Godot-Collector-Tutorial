@@ -23,6 +23,7 @@ on the way through these points.
 1. Add a script to the star to make it spin at a fixed rate.
 1. Make stars spin at different speeds via local variable randomly initialized.
 1. Star explosion scene with `CpuParticles2D`
+    1. Change the direction of the emitter from (0,0) to (1,0) to see effect of gravity
     1. Disable gravity (gravity `y` => 0)
     1. Direction spread => 180
     1. Amount => 50

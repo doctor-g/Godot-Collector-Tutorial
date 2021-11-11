@@ -5,7 +5,7 @@ using [Godot Engine](https://godotengine.org).
 
 ## Getting Ready
 
-Make sure you [download version 3.2 of Godot Engine](https://godotengine.org/download).
+Make sure you [download version 3.4 of Godot Engine](https://godotengine.org/download).
 You should download the 64-bit &ldquo;standard version&rdquo;. (If you are
 using a rather old computer, the 32-bit version will also work, but most
 computers running now are 64-bit.)

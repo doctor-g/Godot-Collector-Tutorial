@@ -24,4 +24,4 @@ This tutorial includes assets from the following sources:
   licensed under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
 - [Potta One font](https://fonts.google.com/specimen/Potta+One)
-  licensed under [OFL](assets/fonts/OFL.txt)
+  licensed under [OFL](level/PottaOne-Regular_OFL.txt).

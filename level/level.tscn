@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3 uid="uid://bau25l4tnsxhr"]
+
+[ext_resource type="Script" path="res://level/level.gd" id="1_s0bub"]
+[ext_resource type="PackedScene" uid="uid://ccc8yx2hvtkk" path="res://player/player.tscn" id="2_ttuoi"]
+[ext_resource type="LabelSettings" uid="uid://b37qtri7cnlx5" path="res://level/hud_label_settings.tres" id="3_68tkr"]
+
+[node name="Level" type="Node2D"]
+script = ExtResource("1_s0bub")
+
+[node name="Background" type="ColorRect" parent="."]
+color = Color(0.0431373, 0.431373, 0.00784314, 1)
+
+[node name="Player" parent="." instance=ExtResource("2_ttuoi")]
+position = Vector2(518.324, 298.817)
+
+[node name="GameTimer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+autostart = true
+
+[node name="UILayer" type="CanvasLayer" parent="."]
+
+[node name="HUD" type="Control" parent="UILayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScoreLabel" type="Label" parent="UILayer/HUD"]
+unique_name_in_owner = true
+layout_mode = 1
+offset_right = 85.0
+offset_bottom = 26.0
+text = "ScoreLabel"
+label_settings = ExtResource("3_68tkr")
+
+[node name="TimeLabel" type="Label" parent="UILayer/HUD"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -80.0
+offset_bottom = 26.0
+grow_horizontal = 0
+text = "TimeLabel"
+label_settings = ExtResource("3_68tkr")
+
+[connection signal="timeout" from="GameTimer" to="." method="_on_game_timer_timeout"]

@@ -1,6 +1,6 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
-export var speed := 200
+@export var speed := 200
 
 var active := true
 
@@ -20,6 +20,7 @@ func _physics_process(delta):
 	# is pressing. We store which direction the player is pressing in the
 	# "direction" variable.
 	var direction := Vector2(0,0)
+	
 	if Input.is_action_pressed("move_right"):
 		direction.x += 1
 	if Input.is_action_pressed("move_left"):

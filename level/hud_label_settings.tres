@@ -1,0 +1,7 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://b37qtri7cnlx5"]
+
+[ext_resource type="FontFile" uid="uid://1wl4s7xf1n8l" path="res://level/PottaOne-Regular.ttf" id="1_i8xhr"]
+
+[resource]
+font = ExtResource("1_i8xhr")
+font_size = 24

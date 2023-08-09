@@ -1,4 +1,2 @@
-*~
-.directory
-.import
-logs
+# Godot 4+ specific ignores
+.godot/

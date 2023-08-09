@@ -1,14 +1,11 @@
 # Collector Tutorial
 
-This project is designed to be part of an interactive workshop on game programming
+This project part of an interactive workshop on game programming
 using [Godot Engine](https://godotengine.org).
 
 ## Getting Ready
 
-Make sure you [download version 3.4 of Godot Engine](https://godotengine.org/download).
-You should download the 64-bit &ldquo;standard version&rdquo;. (If you are
-using a rather old computer, the 32-bit version will also work, but most
-computers running now are 64-bit.)
+Make sure you [download version 4.x of Godot Engine](https://godotengine.org/download).
 
 Extract the executable Godot Engine file from the ZIP file you downloaded.
 You can just put this on your Desktop or someplace similar. There is nothing
